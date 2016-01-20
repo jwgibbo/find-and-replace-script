@@ -1,0 +1,5 @@
+#Date: 2015.02.09
+#Source: https://rushi.wordpress.com/2008/08/05/find-replace-across-multiple-files-in-linux/
+
+find . -name "*.fileExtentions*" -print | xargs sed -i 's/findString/ReplaceString/g'
+
